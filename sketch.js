@@ -43,7 +43,7 @@ function setup() {
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
 
-	stone = new Rock (200,200, 10);
+	stone = new Rock (210, 205, 10);
 	slingshot = new SlingShot(stone.body,{x:225,y:405});
 	
 	
